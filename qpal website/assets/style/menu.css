@@ -1,0 +1,230 @@
+#crd-list{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(255, 255, 255);
+  padding: 72px 24px;
+}
+#crd-list .crd{
+  display: flex;
+  gap: 100px;
+}
+#crd-list .crd .crd-header{
+ width: 290px;
+ height: auto;
+ border: 1px solid rgb(255, 255, 255);
+ background-color: whitesmoke; 
+ box-shadow: 0 0 10px  rgb(195, 194, 194);
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+ border-radius: 24px;
+ transition: 0.5s ease;
+ padding: 20px 24px;
+}
+#crd-list .crd .crd-header:hover{
+    transform: scale(1.1)
+}
+.crd-header h3{
+  display: flex;
+  align-items: center;
+  justify-content: center;      
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  
+}
+#crd-list .crd-header img{
+  width: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 8px;
+}
+
+.crd-body p{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: Arial, Helvetica, sans-serif ;
+  padding: 20px 10px;   
+}
+#menu{
+     display: flex;
+     padding: 72px 24px;
+     background-color: whitesmoke;
+}
+
+.menu-container a i{
+    color: black;
+
+}
+
+
+.menu-container h1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.menu-container p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    
+}
+.content-rgt-bskt{
+    display: flex;
+    justify-content: end;
+}
+.category{
+    border: 2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 72px;
+}
+
+.category h1{
+    padding:0 23px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+}
+
+.category .desc-food p{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    color: #666;
+
+}
+.category .list-items{
+    width: 100%;
+    margin-top: 50px;
+    min-height: fit-content;
+}
+
+.category .list-items h3{
+    font-size: 20px;
+    font-weight: 600;
+    font-family: sans-serif;
+    margin-bottom: 200px;
+}
+
+.category .list-items .card-list{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 160px;
+}
+
+
+.category .card-list .card{
+    width: 200px;
+    height: auto;
+    display: block;
+    padding: 10px;
+    border-radius:  10px;
+    position: relative;
+    background: #ffff;
+    border:  1px solid rgb(214, 211, 211);
+    box-shadow: 0 0 10px  hsl(0, 98%, 37%);
+}
+.category .card-list .card img{
+    width: 150px;
+    height: 150px;
+    bottom: 150px;
+    left: 30px;
+    object-fit: cover;
+    object-position: center;
+    background-repeat: no-repeat;
+    position: absolute;
+    box-shadow  : 0 20px 20px hsl(0, 98%, 37%);
+    border-radius: 50%;
+
+
+}
+
+.category .card-list .card .thumbnail{ 
+    transition: transform .2s;
+    margin: 1 auto;
+} 
+    
+.category .card-list .card .thumbnail:hover { 
+    transform: scale(1.2);
+    z-index: 2; 
+}
+
+.category .card-list .card .food-title{
+    padding:  40px 0 10px;
+}
+
+.category .card-list .card .food-title h1{
+    text-align: center;
+    font-weight: bold;
+    font-size: 16px;
+    font-family: sans-serif
+}
+
+.category .card .dsec-food{
+    font-size:  13px;
+    text-align: center;
+    font-weight: 500;
+    margin-bottom: 20px;
+    font-family: sans-serif;
+}
+
+.category .card .price{
+    display:  flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.category .card .price span{
+    font-weight: 600;
+    font-family: sans-serif;
+}
+
+.category .card .price span .plus-icon{
+    color: #ff0000;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+::-webkit-scrollbar{
+    width: 10px;
+}
+
+::-webkit-scrollbar-thumb{
+    border-radius: 20px;
+    background-color: #ff0000;
+}
+.price i{
+    transition: 0.2s ease;
+}
+.price i:hover{
+opacity: 0.10;
+    }
+
+.price i:active{
+    object-fit: cover;
+}
+
+
+
+@media only screen and (max-width: 768px) {
+    
+#crd-list .crd{
+  display: flex;
+  flex-direction: column;
+  gap: 100px;
+}
+
+
+
+
+
+
+
+
+}

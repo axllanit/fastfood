@@ -1,0 +1,30 @@
+#locate{
+    background-color: whitesmoke;
+    border: 1px solid  rgb(255, 255, 255);
+    box-shadow: 0 0 10px  rgb(195, 194, 194);
+    padding: 72px 24px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.location h1{
+    padding: 24px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+
+    
+}
+
+iframe{
+    border-radius: 2em;
+    opacity: 0.7;
+    transition: 0.5s ease-in-out;
+    size: 
+}
+iframe:hover{
+    transform: scale(1.1);
+    opacity: 1;
+
+}

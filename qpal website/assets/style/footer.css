@@ -1,0 +1,18 @@
+#footer{
+    background-color: rgb(67, 66, 66);
+    padding: 20px;
+}
+
+#footer a{
+    text-decoration: none;
+    color: white;
+    justify-content: center;
+    display: flex;
+}
+
+#footer h3{
+    color: white;
+    display: flex;
+    justify-content: center;
+}
+

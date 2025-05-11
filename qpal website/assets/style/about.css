@@ -1,0 +1,326 @@
+div {
+    display: block;
+    unicode-bidi: isolate;
+}
+
+.about{
+    width: 100%;
+    display: block;
+    margin-bottom: 50px;
+}
+
+/* Our Story css */
+.about .h1-head{
+    color: #000;
+    font-weight: 500;
+    letter-spacing: .8px;
+    line-height: 30px;
+}
+
+
+
+.about h1{
+    font-size: 60px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin: 0;
+    padding: 0;
+    font-weight: 500;
+    line-height: 1.2;
+    margin-bottom: .5rem;
+    margin-top: 0;
+    display: block;
+    font-size: 2em;
+    margin-block-start: 0.67em;
+    margin-block-end: 0.67em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+    unicode-bidi: isolate;
+}
+
+.about .story-title{
+    display: flex    ;
+    flex-direction: column;
+    gap: 25px;
+}
+
+.about .story-title h5{
+    display: block;
+    font-size: 0.83em;
+    margin-block-start: 1.67em;
+    margin-block-end: 1.67em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+    unicode-bidi: isolate;
+    font-size: 1.25rem;
+    font-family: Gill Sans, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.about .story-title-marg{
+    margin-bottom: 35px;
+    margin-top: 45px;
+}
+/* End of Our Story */
+
+/* Our Values */
+.about .values-inner{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 20px 40px;
+}
+
+
+
+.about .values-inner .values-h2{
+    font-size: 20px;
+    letter-spacing: .8px;
+    line-height: 30px;
+}
+.about .values-inner h2{
+    font-family: Gill Sans, sans-serif;
+    margin: 0;
+    padding: 0;
+    font-weight: 500;
+    line-height: 1.2;
+    margin-bottom: .5rem;
+    margin-top: 0;
+    display: block;
+    font-size: 1.5em;
+    margin-block-start: 0.83em;
+    margin-block-end: 0.83em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+    unicode-bidi: isolate;
+}
+
+.about .values-inner .values-start{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+
+.jc_start{
+    justify-content: flex-start !important;
+}
+
+.about .values-inner .values-inner-1{
+    background-color: #fff;
+    flex: 1 1 calc(50% - 50px);
+    max-width: calc(50% - 25px);
+}
+.about .values-inner .values-inner-img{
+    border: 20px solid transparent;
+    border-image: url(../image/ck_border.png) 25 round;
+    border-radius: 15px;
+    padding: 16px;
+}
+
+.about .values-inner .values-inner-2{
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 22px;
+}
+
+.about .values-inner .values-inner-2 p{
+    color: #000;
+    font-family: Gill Sans, sans-serif;
+    font-size: 15px;
+    line-height: 22px;
+    margin: 0;
+    padding: 0;
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    unicode-bidi: isolate;
+}
+/* End of Our Values */
+
+.pg_gaps{
+    padding: 0 20px;
+}
+
+
+
+::-webkit-scrollbar{
+    width: 10px;
+}
+
+::-webkit-scrollbar-thumb{
+    border-radius: 20px;
+    background-color: #ff0000;
+}
+
+/* Vision and Mission */
+.vision-mission {
+    display: flex;
+    flex-direction: row;
+    gap: 44px;
+    align-items: center;
+    border-radius: 15px;
+    gap: 25px;
+    justify-content: center;
+    padding: 30px 24px 35px;
+}
+
+.vision-mission .vm-item {
+    flex: 1 1 calc(50% - 40px);
+    max-width: 50%;
+}
+
+.vision-mission .vm-title {
+    display: flex ;
+    flex-direction: column;
+    gap: 25px;
+}
+
+.vision-mission .vm-item-one {
+    flex: 1 1 calc(50% - 44px);
+    max-width: 50%;
+}
+
+.vision-mission .vm-item-two {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    flex: 1 1 calc(50% - 40px);
+    max-width: 50%;
+}
+
+
+.vision-mission .vision-left {
+    flex-direction: row;
+    padding: 35px 60px 38px;
+}
+
+.vision-mission h2{
+    font-size: 35px;
+    letter-spacing: 1.4px;
+    line-height: 45px;
+    display: block;
+    margin-block-start: 0.83em;
+    margin-block-end: 0.83em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+    unicode-bidi: isolate;
+    font-family: Kontiki, sans-serif;
+}
+
+.vision-mission .vm-title .vm-title-cont{
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+.vision-mission .vision-left{
+    align-items: center;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    justify-content: center;
+    padding: 30px 24px 35px;
+}
+
+.vision-mission .vision-left p{
+    font-size: 20px;
+    line-height: 25px;
+    font-weight: 400;
+    letter-spacing: 0px;
+    color: white;
+    text-align: left;
+}
+
+.vision-mission .mission-right {
+    flex-direction: row;
+    padding: 35px 60px 38px;
+}
+
+.vision-mission .mission-right h2{
+    font-family: Kontiki, sans-serif;
+}
+
+.vision-mission .mission-right p{
+    font-size: 20px;
+    line-height: 25px;
+    font-weight: 400;
+    letter-spacing: 0px;
+    color: white;
+    text-align: left;
+}
+
+/* End of Vision and Mission */
+
+.bgcol_red {
+    background-color: #c83b2c;
+}
+*, :after, :before {
+    box-sizing: border-box;
+}
+
+/* Our Peopl */
+.op{
+    background-color: #f5f5f5;
+    padding-bottom: 70px;
+    padding-top: 80px;
+    margin-top: 110px;
+}
+
+.op .elem{
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+.op .elem .item{
+    display: flex;
+    flex-direction: column;
+    flex: 1 1 calc(60% - 70px);
+    justify-content: center;
+    max-width: 60%;
+    padding-right: 5%;
+    gap: 25px;
+}
+
+.op .elem .item .title{
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+.op .elem .item .title h2{
+    display: block;
+    font-size: 1.5em;
+    margin-block-start: 0.83em;
+    margin-block-end: 0.83em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+    unicode-bidi: isolate;
+}
+
+
+.op .elem .item .desc{
+    font-size: 20px;
+    line-height: 35px;
+    font-weight: 500;
+}
+/* End of Our People */
+
+
+
+
+
+
+
+
+
+    

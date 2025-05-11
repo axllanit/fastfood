@@ -1,0 +1,66 @@
+.primary-btn{
+background-color:hsl(0, 98%, 37%);
+padding: 12px 18px;
+border: 1px solid transparent;
+color: #fff;
+border-radius: 5px;
+cursor: pointer;
+transition: 0.2 ease-in-out;s
+}
+.primary-btn a{
+    text-decoration: none;
+    color: #fff;
+}
+.primary-btn:hover{
+    background-color:hsl(0, 77%, 49%);
+}
+
+
+
+
+
+.secondary-btn{
+    color:#fff;
+    background-color: transparent;
+    padding: 12px 18px;
+    border: 1px solid whitesmoke;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.2 ease-in-out;    
+}
+
+       
+.secondary-btn a{
+    text-decoration: none;
+    color: #fff;
+}
+
+
+
+.ftr-btn{
+    background-color:hsl(0, 98%, 37%);
+padding: 12px 18px;
+border: 1px solid transparent;
+color: #fff;
+border-radius: 5px;
+cursor: pointer;
+transition: 0.2 ease-in-out;
+width: 100%;
+}
+
+
+ .ftr-btn a{
+    text-decoration: none;
+    color: #fff;
+}
+
+.ftr-btn:hover{
+    background-color:hsl(0, 77%, 49%);
+}
+
+.secondary-btn:hover{
+    background-color: hsl(0, 1%, 23%);
+}
+.secondary-btn:hover{
+    background-color: #1e1d1d;
+}
